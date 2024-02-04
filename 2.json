@@ -1,1 +1,17 @@
-{"errCode":0,"message":"ok","data":"AAAAAAAAAAAAAAAAAAAAAHAa7e+hjusJIGhKuZo1VrN1TmeFqbG0nn6Os7Bh9Fw77VFqmW5gog/eSWJKjcF62g==","ticks":0}
+{
+  "versions": {
+    "20230101": "stage"
+  },
+  "datacenters": {
+    "default": {
+      "config": "https://c3.3dtank.com/config.xml",
+      "resources": "https://res.3dtank.com/",
+      "balancer": "https://c3.3dtank.com/stage-balancer"
+    },
+    "stage": {
+      "config": "https://c3.3dtank.com/config.xml",
+      "resources": "https://res.3dtank.com/",
+      "balancer": "https://c3.3dtank.com/stage-balancer"
+    }
+  }
+}
